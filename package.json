@@ -1,0 +1,27 @@
+{
+  "name": "word2vec_example",
+  "version": "1.0.0",
+  "description": "Simple examples how start using word2vec module,",
+  "main": "cli.js",
+  "dependencies": {
+    "fs-extra": "^7.0.0",
+    "word2vec": "^1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unsigned6/word2vec_example.git"
+  },
+  "keywords": [
+    "word2vec"
+  ],
+  "author": "Yurii Vlasiuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unsigned6/word2vec_example/issues"
+  },
+  "homepage": "https://github.com/unsigned6/word2vec_example#readme"
+}
