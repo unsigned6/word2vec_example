@@ -2,6 +2,12 @@
 
 Simple examples how start using word2vec module.
 
+Before usage install dependencies:
+
+```
+npm install
+```
+
 Instructions how to use:
 
 ```
