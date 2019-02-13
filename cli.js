@@ -122,9 +122,9 @@ function analogy(word, pair, number_neighbors = 10) {
             console.log('WORDS: ', model.words);
         
             try {
-                console.time('mostSimilar');
+                console.time('analogy');
                 console.log(model.analogy(word, pair, number_neighbors));
-                console.timeEnd('mostSimilar');
+                console.timeEnd('analogy');
             } catch (error) {
                 reject(error)
             }
