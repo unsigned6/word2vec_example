@@ -89,7 +89,7 @@ async function train(corpusFilePath, vectorSize = 100) {
     return new Promise(resolve => {
         w2v.word2vec(corpusFilePath, 'vectors.txt', {
             size: vectorSize,
-            binary: 1
+            binary: 0
         }, () => {
             console.log('DONE');
             resolve();
